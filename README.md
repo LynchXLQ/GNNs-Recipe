@@ -48,6 +48,34 @@ If you want to keep up-to-date with popular recent methods and paper implementat
 
 🐙 [Graph Models by Papers with Code](https://paperswithcode.com/methods/category/graph-models)
 
+## 🌐 GNN for Networking
+
+GNNs are a natural fit for communication networks — after all, networks are graphs! Here are some resources if you're working on routing, resource allocation, or network optimization:
+
+**Papers:**
+
+🔗 [Graph Neural Networks for Routing Optimization: Challenges and Opportunities](https://www.mdpi.com/2071-1050/16/21/9239) - Nice overview of GNN applications in next-gen networks (2024)
+
+🔗 [RouteNet: A Graph Neural Network for Network Modeling](https://arxiv.org/abs/1901.08113) - The classic paper that started GNN-based network modeling
+
+🔗 [Graph Neural Networking Challenge 2021: Creating a Scalable Network Digital Twin](https://arxiv.org/abs/2107.12433) - Great benchmark problem for network performance prediction
+
+🔗 [Deep Reinforcement Learning meets Graph Neural Networks](https://arxiv.org/abs/1910.07421) - Combining DRL with GNNs for network optimization
+
+**For Optical Networks & O-RAN folks:**
+
+🔗 [GNN-based Service Function Chain Embedding](https://ieeexplore.ieee.org/document/9685466) - VNF placement using GNNs
+
+🔗 [Machine Learning for Optical Network Planning](https://arxiv.org/abs/2304.11053) - Covers GNN approaches for RMLSA problems
+
+**Tools & Repos:**
+
+🐙 [GNN-Communication-Networks](https://github.com/jwwthu/GNN-Communication-Networks) - Comprehensive collection of GNN papers for networking (actively maintained)
+
+🔗 [BNN Lab @ UPC](https://bnn.upc.edu/) - Research group behind RouteNet and many GNN networking tools
+
+🔗 [GNNet Workshop](https://bnn.upc.edu/workshops/gnnet2024/) - Dedicated workshop for GNNs in networking (co-located with CoNEXT)
+
 ## 📈 Benchmarks and Datasets
 
 If you are interested in benchmarks/leaderboards and graph datasets that evaluate GNNs, the Papers with Code community also maintains such content here:
@@ -67,6 +95,10 @@ Here are a few useful tools to get started with GNNs:
 🦒 [jraph](https://github.com/deepmind/jraph)
 
 🟠 [Spektral](https://graphneural.network/)
+
+🔗 [PyG (PyTorch Geometric) 2.x](https://github.com/pyg-team/pytorch_geometric) - Major updates with heterogeneous graph support and better scalability
+
+🧠 [GraphGym](https://github.com/snap-stanford/GraphGym) - Platform for designing and evaluating GNN architectures (from Stanford SNAP)
 
 ## 🍎 Tutorials
 
